@@ -45,6 +45,41 @@
             margin-bottom: 30px;
             opacity: 0.95;
         }
+        header .subtitle-big {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    line-height: 1.3;
+}
+
+header .subtitle-highlight {
+    font-size: 1.8em;
+    font-weight: 800;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    animation: glow 2s ease-in-out infinite;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 40px rgba(255, 255, 255, 0.8);
+    }
+}
+
+header .subtitle {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    opacity: 0.95;
+}
 
         .cta-button {
             display: inline-block;
@@ -401,7 +436,9 @@
     <header>
         <div class="container">
             <h1>בינה מלאכותית - זה קל ✨</h1>
-            <p class="subtitle">הפוך ליצרן תוכן עצמאי וקבל לקוחות מהרשתות החברתיות - בלי ידע טכני, בלי להוציא הון</p>
+            <p class="subtitle-big">🚀 הפוך ליצרן תוכן עצמאי וקבל לקוחות מהרשתות החברתיות</p>
+<p class="subtitle-highlight">בלי ידע טכני | בלי להוציא הון | בלי לבזבז זמן</p>
+<p class="subtitle">רק 5 מפגשים + AI - וזהו! ✨</p>
             <a href="#form" class="cta-button">שריין מקום בקבוצה הבאה 🚀</a>
         </div>
     </header>
